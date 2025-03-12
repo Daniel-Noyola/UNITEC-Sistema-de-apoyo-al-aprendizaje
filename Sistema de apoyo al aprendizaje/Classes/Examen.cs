@@ -6,7 +6,7 @@
 
         public int Id { get; } = id;
         public decimal Calificacion { get; set; }
-        public bool EstaEvaluado { get; set; } = true;
+        public bool EstaEvaluado { get; set; } = false;
 
         public static void CalificarExamen(int examenId, List<bool> respuestas)
         {
