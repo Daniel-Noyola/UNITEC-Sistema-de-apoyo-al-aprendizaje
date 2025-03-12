@@ -128,6 +128,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Tema_3";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tema_3";
             ResumeLayout(false);
             PerformLayout();

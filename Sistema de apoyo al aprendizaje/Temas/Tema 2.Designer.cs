@@ -92,7 +92,6 @@
             label2.Size = new Size(168, 30);
             label2.TabIndex = 8;
             label2.Text = "RPG y Aventura";
-            label2.Click += label2_Click;
             // 
             // label1
             // 
@@ -129,6 +128,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Tema_2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tema_2";
             ResumeLayout(false);
             PerformLayout();
