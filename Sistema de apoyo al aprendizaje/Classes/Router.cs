@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sistema_de_apoyo_al_aprendizaje.Classes
+﻿namespace Sistema_de_apoyo_al_aprendizaje.Classes
 {
     internal class Router
     {
@@ -13,17 +7,13 @@ namespace Sistema_de_apoyo_al_aprendizaje.Classes
             Form? returnForm = null) where T : Form, new()
         {
             T form = new();
+            Form? mainForm = Application.OpenForms["MenuPrincipal"];
 
-            if (returnForm != null)
-            {
-                form.FormClosed += (s, args) => returnForm.Show();
-                currentForm.Close();
-            }
-            else
-            {
-                form.FormClosed += (s, args) => currentForm.Show();
-                currentForm.Hide();
-            }
+            if (currentForm == mainForm) currentForm.Hide();
+            else currentForm.Close();
+
+            if (returnForm != null) form.FormClosed += (s, args) => returnForm.Show();
+            else form.FormClosed += (s, args) => mainForm?.Show();
 
             form.Show();
         }
@@ -32,10 +22,7 @@ namespace Sistema_de_apoyo_al_aprendizaje.Classes
         {
             currentForm.Close();
             Form? mainForm = Application.OpenForms["MenuPrincipal"];
-            if (mainForm != null)
-            {
-                mainForm.Show();
-            }
+            mainForm?.Show();
 
         }
     }
