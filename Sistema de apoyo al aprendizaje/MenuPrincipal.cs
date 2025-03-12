@@ -22,7 +22,7 @@ namespace Sistema_de_apoyo_al_aprendizaje
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Examen? examen = Examen.Examenes.Find(examen =>  examen.Id == 1);
+            Examen? examen = Examen.Examenes.Find(examen => examen.Id == 1);
 
             if (examen != null && examen.EstaEvaluado)
             {
@@ -40,6 +40,23 @@ namespace Sistema_de_apoyo_al_aprendizaje
                 Router.OpenForm<Tema_3>(this);
             }
             else MessageBox.Show("Debes realizar el test del tema 2 para acceder a este tema", "Info");
+        }
+
+        private void BtnCalificacionFinal_Click(object sender, EventArgs e)
+        {
+            if (Examen.TestCompletados())
+            {
+                decimal promedio = Examen.PromediarExamenes();
+                string mensaje = promedio > 6
+                    ? "¡Felicidades! Aprobaste"
+                    : "Lo sentimos, has reprobado";
+                
+
+                MessageBox.Show($"Examenes Completados{Environment.NewLine}Tu calificación es {promedio.ToString("F2")} {Environment.NewLine}{mensaje}", "Calificación");
+            } else
+            {
+                MessageBox.Show("Aun no completas todos los test", "Info");
+            }
         }
     }
 }

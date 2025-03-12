@@ -65,6 +65,7 @@ namespace Sistema_de_apoyo_al_aprendizaje.Tests
 
         public void HabilitarPregunta(int id)
         {
+            if (id != 0) Boxes[id-1].Enabled = false;
             if (id == 10)
             {
                 BtnEnviar.Enabled = true;
@@ -72,7 +73,6 @@ namespace Sistema_de_apoyo_al_aprendizaje.Tests
             }
 
             Boxes[id].Enabled = true;
-            if (id != 0) Boxes[id-1].Enabled = false;
         }
     }
 }

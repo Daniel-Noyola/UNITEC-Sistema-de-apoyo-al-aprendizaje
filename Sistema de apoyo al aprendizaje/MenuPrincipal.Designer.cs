@@ -34,6 +34,7 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
+            BtnCalificacionFinal = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -93,11 +94,22 @@
             pictureBox3.TabIndex = 5;
             pictureBox3.TabStop = false;
             // 
+            // BtnCalificacionFinal
+            // 
+            BtnCalificacionFinal.Location = new Point(326, 381);
+            BtnCalificacionFinal.Name = "BtnCalificacionFinal";
+            BtnCalificacionFinal.Size = new Size(135, 57);
+            BtnCalificacionFinal.TabIndex = 6;
+            BtnCalificacionFinal.Text = "Ver calificación final";
+            BtnCalificacionFinal.UseVisualStyleBackColor = true;
+            BtnCalificacionFinal.Click += BtnCalificacionFinal_Click;
+            // 
             // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(BtnCalificacionFinal);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
@@ -121,5 +133,6 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
+        public Button BtnCalificacionFinal;
     }
 }

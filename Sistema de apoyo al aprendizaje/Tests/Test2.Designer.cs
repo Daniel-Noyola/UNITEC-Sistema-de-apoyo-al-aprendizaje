@@ -29,63 +29,73 @@
         private void InitializeComponent()
         {
             BtnEnviar = new Button();
-            groupBox6 = new GroupBox();
+            groupBox10 = new GroupBox();
             Respuesta10 = new RadioButton();
             radioButton17 = new RadioButton();
             radioButton18 = new RadioButton();
             label6 = new Label();
-            groupBox7 = new GroupBox();
+            Guardar10 = new Button();
+            groupBox9 = new GroupBox();
             radioButton19 = new RadioButton();
             Respuesta9 = new RadioButton();
             radioButton21 = new RadioButton();
             label7 = new Label();
+            Guardar9 = new Button();
             groupBox8 = new GroupBox();
             radioButton22 = new RadioButton();
             radioButton23 = new RadioButton();
             Respuesta8 = new RadioButton();
             label8 = new Label();
-            groupBox9 = new GroupBox();
+            Guardar8 = new Button();
+            groupBox7 = new GroupBox();
             Respuesta7 = new RadioButton();
             radioButton26 = new RadioButton();
             radioButton27 = new RadioButton();
             label9 = new Label();
-            groupBox10 = new GroupBox();
+            Guardar7 = new Button();
+            groupBox6 = new GroupBox();
             radioButton28 = new RadioButton();
             Respuesta6 = new RadioButton();
             radioButton30 = new RadioButton();
             label10 = new Label();
-            groupBox4 = new GroupBox();
+            Guardar6 = new Button();
+            groupBox5 = new GroupBox();
             radioButton10 = new RadioButton();
             radioButton11 = new RadioButton();
             Respuesta5 = new RadioButton();
             label4 = new Label();
-            groupBox5 = new GroupBox();
+            Guardar5 = new Button();
+            groupBox4 = new GroupBox();
             Respuesta4 = new RadioButton();
             radioButton14 = new RadioButton();
             radioButton15 = new RadioButton();
+            Guardar4 = new Button();
             label5 = new Label();
             groupBox3 = new GroupBox();
             radioButton7 = new RadioButton();
             Respuesta3 = new RadioButton();
+            Guardar3 = new Button();
             radioButton9 = new RadioButton();
             label3 = new Label();
             groupBox2 = new GroupBox();
             radioButton4 = new RadioButton();
+            Guardar2 = new Button();
             radioButton5 = new RadioButton();
             Respuesta2 = new RadioButton();
             label2 = new Label();
             groupBox1 = new GroupBox();
+            Guardar1 = new Button();
             Respuesta1 = new RadioButton();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
             label1 = new Label();
-            groupBox6.SuspendLayout();
-            groupBox7.SuspendLayout();
-            groupBox8.SuspendLayout();
-            groupBox9.SuspendLayout();
             groupBox10.SuspendLayout();
-            groupBox4.SuspendLayout();
+            groupBox9.SuspendLayout();
+            groupBox8.SuspendLayout();
+            groupBox7.SuspendLayout();
+            groupBox6.SuspendLayout();
             groupBox5.SuspendLayout();
+            groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -93,6 +103,7 @@
             // 
             // BtnEnviar
             // 
+            BtnEnviar.Enabled = false;
             BtnEnviar.Location = new Point(1135, 761);
             BtnEnviar.Name = "BtnEnviar";
             BtnEnviar.Size = new Size(109, 53);
@@ -101,18 +112,19 @@
             BtnEnviar.UseVisualStyleBackColor = true;
             BtnEnviar.Click += BtnEnviar_Click;
             // 
-            // groupBox6
+            // groupBox10
             // 
-            groupBox6.Controls.Add(Respuesta10);
-            groupBox6.Controls.Add(radioButton17);
-            groupBox6.Controls.Add(radioButton18);
-            groupBox6.Controls.Add(label6);
-            groupBox6.Location = new Point(669, 593);
-            groupBox6.Name = "groupBox6";
-            groupBox6.Size = new Size(575, 129);
-            groupBox6.TabIndex = 23;
-            groupBox6.TabStop = false;
-            groupBox6.Text = "Pregunta 10";
+            groupBox10.Controls.Add(Respuesta10);
+            groupBox10.Controls.Add(radioButton17);
+            groupBox10.Controls.Add(radioButton18);
+            groupBox10.Controls.Add(label6);
+            groupBox10.Controls.Add(Guardar10);
+            groupBox10.Location = new Point(669, 593);
+            groupBox10.Name = "groupBox10";
+            groupBox10.Size = new Size(575, 129);
+            groupBox10.TabIndex = 23;
+            groupBox10.TabStop = false;
+            groupBox10.Text = "Pregunta 10";
             // 
             // Respuesta10
             // 
@@ -156,18 +168,28 @@
             label6.TabIndex = 0;
             label6.Text = "¿Qué RPG es famoso por su dificultad extrema?";
             // 
-            // groupBox7
+            // Guardar10
             // 
-            groupBox7.Controls.Add(radioButton19);
-            groupBox7.Controls.Add(Respuesta9);
-            groupBox7.Controls.Add(radioButton21);
-            groupBox7.Controls.Add(label7);
-            groupBox7.Location = new Point(669, 454);
-            groupBox7.Name = "groupBox7";
-            groupBox7.Size = new Size(575, 133);
-            groupBox7.TabIndex = 22;
-            groupBox7.TabStop = false;
-            groupBox7.Text = "Pregunta 9";
+            Guardar10.Location = new Point(476, 22);
+            Guardar10.Name = "Guardar10";
+            Guardar10.Size = new Size(75, 23);
+            Guardar10.TabIndex = 34;
+            Guardar10.Text = "Guardar";
+            Guardar10.UseVisualStyleBackColor = true;
+            // 
+            // groupBox9
+            // 
+            groupBox9.Controls.Add(radioButton19);
+            groupBox9.Controls.Add(Respuesta9);
+            groupBox9.Controls.Add(radioButton21);
+            groupBox9.Controls.Add(label7);
+            groupBox9.Controls.Add(Guardar9);
+            groupBox9.Location = new Point(669, 454);
+            groupBox9.Name = "groupBox9";
+            groupBox9.Size = new Size(575, 133);
+            groupBox9.TabIndex = 22;
+            groupBox9.TabStop = false;
+            groupBox9.Text = "Pregunta 9";
             // 
             // radioButton19
             // 
@@ -211,12 +233,22 @@
             label7.TabIndex = 0;
             label7.Text = "¿Cuál es el shooter más vendido de todos los tiempos?";
             // 
+            // Guardar9
+            // 
+            Guardar9.Location = new Point(476, 22);
+            Guardar9.Name = "Guardar9";
+            Guardar9.Size = new Size(75, 23);
+            Guardar9.TabIndex = 33;
+            Guardar9.Text = "Guardar";
+            Guardar9.UseVisualStyleBackColor = true;
+            // 
             // groupBox8
             // 
             groupBox8.Controls.Add(radioButton22);
             groupBox8.Controls.Add(radioButton23);
             groupBox8.Controls.Add(Respuesta8);
             groupBox8.Controls.Add(label8);
+            groupBox8.Controls.Add(Guardar8);
             groupBox8.Location = new Point(669, 310);
             groupBox8.Name = "groupBox8";
             groupBox8.Size = new Size(575, 129);
@@ -266,18 +298,28 @@
             label8.TabIndex = 0;
             label8.Text = "¿Cuál es la consola más vendida de la historia?";
             // 
-            // groupBox9
+            // Guardar8
             // 
-            groupBox9.Controls.Add(Respuesta7);
-            groupBox9.Controls.Add(radioButton26);
-            groupBox9.Controls.Add(radioButton27);
-            groupBox9.Controls.Add(label9);
-            groupBox9.Location = new Point(669, 171);
-            groupBox9.Name = "groupBox9";
-            groupBox9.Size = new Size(575, 133);
-            groupBox9.TabIndex = 20;
-            groupBox9.TabStop = false;
-            groupBox9.Text = "Pregunta 7";
+            Guardar8.Location = new Point(476, 22);
+            Guardar8.Name = "Guardar8";
+            Guardar8.Size = new Size(75, 23);
+            Guardar8.TabIndex = 32;
+            Guardar8.Text = "Guardar";
+            Guardar8.UseVisualStyleBackColor = true;
+            // 
+            // groupBox7
+            // 
+            groupBox7.Controls.Add(Respuesta7);
+            groupBox7.Controls.Add(radioButton26);
+            groupBox7.Controls.Add(radioButton27);
+            groupBox7.Controls.Add(label9);
+            groupBox7.Controls.Add(Guardar7);
+            groupBox7.Location = new Point(669, 171);
+            groupBox7.Name = "groupBox7";
+            groupBox7.Size = new Size(575, 133);
+            groupBox7.TabIndex = 20;
+            groupBox7.TabStop = false;
+            groupBox7.Text = "Pregunta 7";
             // 
             // Respuesta7
             // 
@@ -321,18 +363,28 @@
             label9.TabIndex = 0;
             label9.Text = "¿Qué juego de estrategia introdujo la mecánica de \"turnos\"?";
             // 
-            // groupBox10
+            // Guardar7
             // 
-            groupBox10.Controls.Add(radioButton28);
-            groupBox10.Controls.Add(Respuesta6);
-            groupBox10.Controls.Add(radioButton30);
-            groupBox10.Controls.Add(label10);
-            groupBox10.Location = new Point(669, 34);
-            groupBox10.Name = "groupBox10";
-            groupBox10.Size = new Size(575, 131);
-            groupBox10.TabIndex = 19;
-            groupBox10.TabStop = false;
-            groupBox10.Text = "Pregunta 6";
+            Guardar7.Location = new Point(476, 22);
+            Guardar7.Name = "Guardar7";
+            Guardar7.Size = new Size(75, 23);
+            Guardar7.TabIndex = 31;
+            Guardar7.Text = "Guardar";
+            Guardar7.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            groupBox6.Controls.Add(radioButton28);
+            groupBox6.Controls.Add(Respuesta6);
+            groupBox6.Controls.Add(radioButton30);
+            groupBox6.Controls.Add(label10);
+            groupBox6.Controls.Add(Guardar6);
+            groupBox6.Location = new Point(669, 34);
+            groupBox6.Name = "groupBox6";
+            groupBox6.Size = new Size(575, 131);
+            groupBox6.TabIndex = 19;
+            groupBox6.TabStop = false;
+            groupBox6.Text = "Pregunta 6";
             // 
             // radioButton28
             // 
@@ -376,18 +428,28 @@
             label10.TabIndex = 0;
             label10.Text = "¿Qué videojuego de simulación te permite controlar la vida de personajes virtuales?";
             // 
-            // groupBox4
+            // Guardar6
             // 
-            groupBox4.Controls.Add(radioButton10);
-            groupBox4.Controls.Add(radioButton11);
-            groupBox4.Controls.Add(Respuesta5);
-            groupBox4.Controls.Add(label4);
-            groupBox4.Location = new Point(74, 593);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(575, 129);
-            groupBox4.TabIndex = 18;
-            groupBox4.TabStop = false;
-            groupBox4.Text = "Pregunta 5";
+            Guardar6.Location = new Point(476, 20);
+            Guardar6.Name = "Guardar6";
+            Guardar6.Size = new Size(75, 23);
+            Guardar6.TabIndex = 30;
+            Guardar6.Text = "Guardar";
+            Guardar6.UseVisualStyleBackColor = true;
+            // 
+            // groupBox5
+            // 
+            groupBox5.Controls.Add(radioButton10);
+            groupBox5.Controls.Add(radioButton11);
+            groupBox5.Controls.Add(Respuesta5);
+            groupBox5.Controls.Add(label4);
+            groupBox5.Controls.Add(Guardar5);
+            groupBox5.Location = new Point(74, 593);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Size = new Size(575, 129);
+            groupBox5.TabIndex = 18;
+            groupBox5.TabStop = false;
+            groupBox5.Text = "Pregunta 5";
             // 
             // radioButton10
             // 
@@ -431,18 +493,28 @@
             label4.TabIndex = 0;
             label4.Text = "¿Cuál es un ejemplo de RTS clásico?";
             // 
-            // groupBox5
+            // Guardar5
             // 
-            groupBox5.Controls.Add(Respuesta4);
-            groupBox5.Controls.Add(radioButton14);
-            groupBox5.Controls.Add(radioButton15);
-            groupBox5.Controls.Add(label5);
-            groupBox5.Location = new Point(74, 454);
-            groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(575, 133);
-            groupBox5.TabIndex = 17;
-            groupBox5.TabStop = false;
-            groupBox5.Text = "Pregunta 4";
+            Guardar5.Location = new Point(483, 38);
+            Guardar5.Name = "Guardar5";
+            Guardar5.Size = new Size(75, 23);
+            Guardar5.TabIndex = 29;
+            Guardar5.Text = "Guardar";
+            Guardar5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(Respuesta4);
+            groupBox4.Controls.Add(radioButton14);
+            groupBox4.Controls.Add(radioButton15);
+            groupBox4.Controls.Add(Guardar4);
+            groupBox4.Controls.Add(label5);
+            groupBox4.Location = new Point(74, 454);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(575, 133);
+            groupBox4.TabIndex = 17;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Pregunta 4";
             // 
             // Respuesta4
             // 
@@ -477,6 +549,15 @@
             radioButton15.Text = "radioButton15";
             radioButton15.UseVisualStyleBackColor = true;
             // 
+            // Guardar4
+            // 
+            Guardar4.Location = new Point(483, 22);
+            Guardar4.Name = "Guardar4";
+            Guardar4.Size = new Size(75, 23);
+            Guardar4.TabIndex = 28;
+            Guardar4.Text = "Guardar";
+            Guardar4.UseVisualStyleBackColor = true;
+            // 
             // label5
             // 
             label5.AutoSize = true;
@@ -490,6 +571,7 @@
             // 
             groupBox3.Controls.Add(radioButton7);
             groupBox3.Controls.Add(Respuesta3);
+            groupBox3.Controls.Add(Guardar3);
             groupBox3.Controls.Add(radioButton9);
             groupBox3.Controls.Add(label3);
             groupBox3.Location = new Point(74, 310);
@@ -521,6 +603,15 @@
             Respuesta3.Text = "radioButton8";
             Respuesta3.UseVisualStyleBackColor = true;
             // 
+            // Guardar3
+            // 
+            Guardar3.Location = new Point(483, 22);
+            Guardar3.Name = "Guardar3";
+            Guardar3.Size = new Size(75, 23);
+            Guardar3.TabIndex = 27;
+            Guardar3.Text = "Guardar";
+            Guardar3.UseVisualStyleBackColor = true;
+            // 
             // radioButton9
             // 
             radioButton9.AutoSize = true;
@@ -544,6 +635,7 @@
             // groupBox2
             // 
             groupBox2.Controls.Add(radioButton4);
+            groupBox2.Controls.Add(Guardar2);
             groupBox2.Controls.Add(radioButton5);
             groupBox2.Controls.Add(Respuesta2);
             groupBox2.Controls.Add(label2);
@@ -564,6 +656,15 @@
             radioButton4.TabStop = true;
             radioButton4.Text = "radioButton4";
             radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // Guardar2
+            // 
+            Guardar2.Location = new Point(483, 22);
+            Guardar2.Name = "Guardar2";
+            Guardar2.Size = new Size(75, 23);
+            Guardar2.TabIndex = 26;
+            Guardar2.Text = "Guardar";
+            Guardar2.UseVisualStyleBackColor = true;
             // 
             // radioButton5
             // 
@@ -598,6 +699,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(Guardar1);
             groupBox1.Controls.Add(Respuesta1);
             groupBox1.Controls.Add(radioButton2);
             groupBox1.Controls.Add(radioButton1);
@@ -608,6 +710,15 @@
             groupBox1.TabIndex = 14;
             groupBox1.TabStop = false;
             groupBox1.Text = "Pregunta 1";
+            // 
+            // Guardar1
+            // 
+            Guardar1.Location = new Point(483, 22);
+            Guardar1.Name = "Guardar1";
+            Guardar1.Size = new Size(75, 23);
+            Guardar1.TabIndex = 25;
+            Guardar1.Text = "Guardar";
+            Guardar1.UseVisualStyleBackColor = true;
             // 
             // Respuesta1
             // 
@@ -657,33 +768,33 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1266, 844);
             Controls.Add(BtnEnviar);
-            Controls.Add(groupBox6);
-            Controls.Add(groupBox7);
-            Controls.Add(groupBox8);
-            Controls.Add(groupBox9);
             Controls.Add(groupBox10);
-            Controls.Add(groupBox4);
+            Controls.Add(groupBox9);
+            Controls.Add(groupBox8);
+            Controls.Add(groupBox7);
+            Controls.Add(groupBox6);
             Controls.Add(groupBox5);
+            Controls.Add(groupBox4);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Test2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Test2: Géneros de videojuegos";
-            groupBox6.ResumeLayout(false);
-            groupBox6.PerformLayout();
-            groupBox7.ResumeLayout(false);
-            groupBox7.PerformLayout();
-            groupBox8.ResumeLayout(false);
-            groupBox8.PerformLayout();
-            groupBox9.ResumeLayout(false);
-            groupBox9.PerformLayout();
             groupBox10.ResumeLayout(false);
             groupBox10.PerformLayout();
-            groupBox4.ResumeLayout(false);
-            groupBox4.PerformLayout();
+            groupBox9.ResumeLayout(false);
+            groupBox9.PerformLayout();
+            groupBox8.ResumeLayout(false);
+            groupBox8.PerformLayout();
+            groupBox7.ResumeLayout(false);
+            groupBox7.PerformLayout();
+            groupBox6.ResumeLayout(false);
+            groupBox6.PerformLayout();
             groupBox5.ResumeLayout(false);
             groupBox5.PerformLayout();
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -696,12 +807,12 @@
         #endregion
 
         private Button BtnEnviar;
-        private GroupBox groupBox6;
+        private GroupBox groupBox10;
         private RadioButton Respuesta10;
         private RadioButton radioButton17;
         private RadioButton radioButton18;
         private Label label6;
-        private GroupBox groupBox7;
+        private GroupBox groupBox9;
         private RadioButton radioButton19;
         private RadioButton Respuesta9;
         private RadioButton radioButton21;
@@ -711,22 +822,22 @@
         private RadioButton radioButton23;
         private RadioButton Respuesta8;
         private Label label8;
-        private GroupBox groupBox9;
+        private GroupBox groupBox7;
         private RadioButton Respuesta7;
         private RadioButton radioButton26;
         private RadioButton radioButton27;
         private Label label9;
-        private GroupBox groupBox10;
+        private GroupBox groupBox6;
         private RadioButton radioButton28;
         private RadioButton Respuesta6;
         private RadioButton radioButton30;
         private Label label10;
-        private GroupBox groupBox4;
+        private GroupBox groupBox5;
         private RadioButton radioButton10;
         private RadioButton radioButton11;
         private RadioButton Respuesta5;
         private Label label4;
-        private GroupBox groupBox5;
+        private GroupBox groupBox4;
         private RadioButton Respuesta4;
         private RadioButton radioButton14;
         private RadioButton radioButton15;
@@ -746,5 +857,15 @@
         private RadioButton radioButton2;
         private RadioButton radioButton1;
         private Label label1;
+        private Button Guardar10;
+        private Button Guardar9;
+        private Button Guardar8;
+        private Button Guardar7;
+        private Button Guardar6;
+        private Button Guardar5;
+        private Button Guardar4;
+        private Button Guardar3;
+        private Button Guardar2;
+        private Button Guardar1;
     }
 }

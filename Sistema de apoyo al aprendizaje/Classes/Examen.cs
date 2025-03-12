@@ -26,5 +26,21 @@
 
             MessageBox.Show($"Tu calificación es: {calificacion}");
         }
+
+        public static bool TestCompletados()
+        {
+            return !Examenes.Exists(examen => examen.EstaEvaluado == false);
+        }
+
+        public static decimal PromediarExamenes()
+        {
+            decimal resultado = 0;
+            Examenes.ForEach(Examen =>
+            {
+                resultado += Examen.Calificacion;
+            });
+
+            return resultado / 3;
+        }
     }
 }
