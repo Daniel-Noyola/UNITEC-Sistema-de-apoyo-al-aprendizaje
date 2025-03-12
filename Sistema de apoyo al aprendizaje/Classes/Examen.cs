@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Sistema_de_apoyo_al_aprendizaje.Classes
+﻿namespace Sistema_de_apoyo_al_aprendizaje.Classes
 {
-    internal class Examen
+    internal class Examen(int id)
     {
+        public static List<Examen> Examenes = [];
 
-        public static bool Exam1passed, Exam2passed, Exam3passed;
+        public int Id { get; } = id;
+        public decimal Calificacion { get; set; }
+        public bool Evaluado { get; set; } = false;
 
         public static void OpenTest<T>(Form currentForm) where T : Form, new()
         {
-            T test = new T();
+            T test = new();
             test.FormClosed += (s, args) => currentForm.Show();
             currentForm.Hide();
 

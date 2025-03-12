@@ -12,7 +12,7 @@ namespace Sistema_de_apoyo_al_aprendizaje
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Examen.OpenTest<Tema_1>(this);
+            Router.OpenForm<Tema_1>(this);
         }
 
         private void button2_Click(object sender, EventArgs e)

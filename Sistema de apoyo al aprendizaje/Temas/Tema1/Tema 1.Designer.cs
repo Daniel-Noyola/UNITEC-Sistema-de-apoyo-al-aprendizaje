@@ -37,6 +37,7 @@
             label6 = new Label();
             button1 = new Button();
             BtnRegresar = new Button();
+            MainButton = new Button();
             SuspendLayout();
             // 
             // label1
@@ -114,11 +115,23 @@
             BtnRegresar.UseVisualStyleBackColor = true;
             BtnRegresar.Click += BtnRegresar_Click;
             // 
+            // MainButton
+            // 
+            MainButton.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            MainButton.Location = new Point(274, 677);
+            MainButton.Name = "MainButton";
+            MainButton.Size = new Size(134, 61);
+            MainButton.TabIndex = 8;
+            MainButton.Text = "Menu principal";
+            MainButton.UseVisualStyleBackColor = true;
+            MainButton.Click += MainButton_Click;
+            // 
             // Tema_1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(679, 803);
+            Controls.Add(MainButton);
             Controls.Add(BtnRegresar);
             Controls.Add(button1);
             Controls.Add(label6);
@@ -144,5 +157,6 @@
         private Label label6;
         private Button button1;
         private Button BtnRegresar;
+        private Button MainButton;
     }
 }

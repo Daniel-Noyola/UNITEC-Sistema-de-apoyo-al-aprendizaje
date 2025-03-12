@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using Sistema_de_apoyo_al_aprendizaje.Classes;
 
 namespace Sistema_de_apoyo_al_aprendizaje
 {
@@ -20,6 +12,11 @@ namespace Sistema_de_apoyo_al_aprendizaje
         private void BtnRegresar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void MainButton_Click(object sender, EventArgs e)
+        {
+            Router.GoToMainForm(this);
         }
     }
 }
