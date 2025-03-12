@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sistema_de_apoyo_al_aprendizaje.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,9 +18,23 @@ namespace Sistema_de_apoyo_al_aprendizaje.Tests
             InitializeComponent();
         }
 
-        private void radioButton28_CheckedChanged(object sender, EventArgs e)
+        private void BtnEnviar_Click(object sender, EventArgs e)
         {
+            List<bool> respuestas = [
+                Respuesta1.Checked,
+                Respuesta2.Checked,
+                Respuesta3.Checked,
+                Respuesta4.Checked,
+                Respuesta5.Checked,
+                Respuesta6.Checked,
+                Respuesta7.Checked,
+                Respuesta8.Checked,
+                Respuesta9.Checked,
+                Respuesta10.Checked,
+                ];
 
+            Examen.CalificarExamen(2, respuestas);
+            Close();
         }
     }
 }

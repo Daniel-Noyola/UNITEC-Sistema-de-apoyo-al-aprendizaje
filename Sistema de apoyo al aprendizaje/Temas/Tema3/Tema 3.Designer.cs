@@ -59,6 +59,7 @@
             button1.TabIndex = 21;
             button1.Text = "Ir al Test";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label6
             // 

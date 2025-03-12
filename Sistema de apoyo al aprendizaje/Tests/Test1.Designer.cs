@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            label1 = new Label();
-            radioButton1 = new RadioButton();
-            Respuesta1 = new RadioButton();
             radioButton3 = new RadioButton();
+            Respuesta1 = new RadioButton();
+            radioButton1 = new RadioButton();
+            label1 = new Label();
             groupBox2 = new GroupBox();
             Respuesta2 = new RadioButton();
             radioButton5 = new RadioButton();
@@ -103,27 +103,17 @@
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Pregunta 1";
-            groupBox1.Enter += groupBox1_Enter;
             // 
-            // label1
+            // radioButton3
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(29, 46);
-            label1.Name = "label1";
-            label1.Size = new Size(243, 15);
-            label1.TabIndex = 0;
-            label1.Text = "¿Cuál fue el primer videojuego de la historia?";
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(29, 91);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(94, 19);
-            radioButton1.TabIndex = 1;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "radioButton1";
-            radioButton1.UseVisualStyleBackColor = true;
+            radioButton3.AutoSize = true;
+            radioButton3.Location = new Point(475, 91);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(94, 19);
+            radioButton3.TabIndex = 3;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "radioButton3";
+            radioButton3.UseVisualStyleBackColor = true;
             // 
             // Respuesta1
             // 
@@ -136,16 +126,25 @@
             Respuesta1.Text = "radioButton2";
             Respuesta1.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // radioButton1
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(475, 91);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(94, 19);
-            radioButton3.TabIndex = 3;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "radioButton3";
-            radioButton3.UseVisualStyleBackColor = true;
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(29, 91);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(94, 19);
+            radioButton1.TabIndex = 1;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "radioButton1";
+            radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(29, 46);
+            label1.Name = "label1";
+            label1.Size = new Size(243, 15);
+            label1.TabIndex = 0;
+            label1.Text = "¿Cuál fue el primer videojuego de la historia?";
             // 
             // groupBox2
             // 
@@ -256,7 +255,6 @@
             label3.Size = new Size(213, 15);
             label3.TabIndex = 0;
             label3.Text = "¿Qué videojuego introdujo a Pac-Man?";
-            label3.Click += label3_Click;
             // 
             // groupBox4
             // 
@@ -374,7 +372,7 @@
             groupBox6.Controls.Add(Respuesta10);
             groupBox6.Controls.Add(radioButton18);
             groupBox6.Controls.Add(label6);
-            groupBox6.Location = new Point(637, 625);
+            groupBox6.Location = new Point(643, 605);
             groupBox6.Name = "groupBox6";
             groupBox6.Size = new Size(575, 129);
             groupBox6.TabIndex = 12;
@@ -429,7 +427,7 @@
             groupBox7.Controls.Add(radioButton20);
             groupBox7.Controls.Add(Respuesta9);
             groupBox7.Controls.Add(label7);
-            groupBox7.Location = new Point(637, 486);
+            groupBox7.Location = new Point(643, 466);
             groupBox7.Name = "groupBox7";
             groupBox7.Size = new Size(575, 133);
             groupBox7.TabIndex = 11;
@@ -484,7 +482,7 @@
             groupBox8.Controls.Add(radioButton23);
             groupBox8.Controls.Add(radioButton24);
             groupBox8.Controls.Add(label8);
-            groupBox8.Location = new Point(637, 342);
+            groupBox8.Location = new Point(643, 322);
             groupBox8.Name = "groupBox8";
             groupBox8.Size = new Size(575, 129);
             groupBox8.TabIndex = 10;
@@ -539,7 +537,7 @@
             groupBox9.Controls.Add(Respuesta7);
             groupBox9.Controls.Add(radioButton27);
             groupBox9.Controls.Add(label9);
-            groupBox9.Location = new Point(637, 203);
+            groupBox9.Location = new Point(643, 183);
             groupBox9.Name = "groupBox9";
             groupBox9.Size = new Size(575, 133);
             groupBox9.TabIndex = 9;
@@ -594,7 +592,7 @@
             groupBox10.Controls.Add(radioButton29);
             groupBox10.Controls.Add(Respuesta6);
             groupBox10.Controls.Add(label10);
-            groupBox10.Location = new Point(637, 66);
+            groupBox10.Location = new Point(643, 46);
             groupBox10.Name = "groupBox10";
             groupBox10.Size = new Size(575, 131);
             groupBox10.TabIndex = 8;
@@ -645,18 +643,19 @@
             // 
             // button1
             // 
-            button1.Location = new Point(1249, 769);
+            button1.Location = new Point(1109, 765);
             button1.Name = "button1";
             button1.Size = new Size(109, 53);
             button1.TabIndex = 13;
             button1.Text = "Enviar Test";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Test1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1382, 843);
+            ClientSize = new Size(1263, 843);
             Controls.Add(button1);
             Controls.Add(groupBox6);
             Controls.Add(groupBox7);
@@ -669,7 +668,8 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Test1";
-            Text = "Test1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Test1: Historia de los videojuegos";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);

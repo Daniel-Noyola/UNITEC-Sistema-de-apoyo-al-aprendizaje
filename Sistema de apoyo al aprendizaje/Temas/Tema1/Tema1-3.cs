@@ -22,7 +22,12 @@ namespace Sistema_de_apoyo_al_aprendizaje.Temas.Tema1
 
         private void BtnTest_Click(object sender, EventArgs e)
         {
-            Router.OpenForm<Test1>(this);
+            Examen? examen = Examen.Examenes.Find(examen => examen.Id == 1);
+            if (examen != null && !examen.EstaEvaluado)
+            {
+                Router.OpenForm<Test1>(this);
+            }
+            else MessageBox.Show("Ya has realizado este test", "Info");
         }
     }
 }

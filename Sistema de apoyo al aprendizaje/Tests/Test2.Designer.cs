@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            BtnEnviar = new Button();
             groupBox6 = new GroupBox();
             Respuesta10 = new RadioButton();
             radioButton17 = new RadioButton();
@@ -91,14 +91,15 @@
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // BtnEnviar
             // 
-            button1.Location = new Point(1282, 757);
-            button1.Name = "button1";
-            button1.Size = new Size(109, 53);
-            button1.TabIndex = 24;
-            button1.Text = "Enviar Test";
-            button1.UseVisualStyleBackColor = true;
+            BtnEnviar.Location = new Point(1135, 761);
+            BtnEnviar.Name = "BtnEnviar";
+            BtnEnviar.Size = new Size(109, 53);
+            BtnEnviar.TabIndex = 24;
+            BtnEnviar.Text = "Enviar Test";
+            BtnEnviar.UseVisualStyleBackColor = true;
+            BtnEnviar.Click += BtnEnviar_Click;
             // 
             // groupBox6
             // 
@@ -106,7 +107,7 @@
             groupBox6.Controls.Add(radioButton17);
             groupBox6.Controls.Add(radioButton18);
             groupBox6.Controls.Add(label6);
-            groupBox6.Location = new Point(670, 613);
+            groupBox6.Location = new Point(669, 593);
             groupBox6.Name = "groupBox6";
             groupBox6.Size = new Size(575, 129);
             groupBox6.TabIndex = 23;
@@ -151,7 +152,7 @@
             label6.AutoSize = true;
             label6.Location = new Point(29, 46);
             label6.Name = "label6";
-            label6.Size = new Size(255, 15);
+            label6.Size = new Size(256, 15);
             label6.TabIndex = 0;
             label6.Text = "¿Qué RPG es famoso por su dificultad extrema?";
             // 
@@ -161,7 +162,7 @@
             groupBox7.Controls.Add(Respuesta9);
             groupBox7.Controls.Add(radioButton21);
             groupBox7.Controls.Add(label7);
-            groupBox7.Location = new Point(670, 474);
+            groupBox7.Location = new Point(669, 454);
             groupBox7.Name = "groupBox7";
             groupBox7.Size = new Size(575, 133);
             groupBox7.TabIndex = 22;
@@ -216,7 +217,7 @@
             groupBox8.Controls.Add(radioButton23);
             groupBox8.Controls.Add(Respuesta8);
             groupBox8.Controls.Add(label8);
-            groupBox8.Location = new Point(670, 330);
+            groupBox8.Location = new Point(669, 310);
             groupBox8.Name = "groupBox8";
             groupBox8.Size = new Size(575, 129);
             groupBox8.TabIndex = 21;
@@ -271,7 +272,7 @@
             groupBox9.Controls.Add(radioButton26);
             groupBox9.Controls.Add(radioButton27);
             groupBox9.Controls.Add(label9);
-            groupBox9.Location = new Point(670, 191);
+            groupBox9.Location = new Point(669, 171);
             groupBox9.Name = "groupBox9";
             groupBox9.Size = new Size(575, 133);
             groupBox9.TabIndex = 20;
@@ -326,7 +327,7 @@
             groupBox10.Controls.Add(Respuesta6);
             groupBox10.Controls.Add(radioButton30);
             groupBox10.Controls.Add(label10);
-            groupBox10.Location = new Point(670, 54);
+            groupBox10.Location = new Point(669, 34);
             groupBox10.Name = "groupBox10";
             groupBox10.Size = new Size(575, 131);
             groupBox10.TabIndex = 19;
@@ -343,7 +344,6 @@
             radioButton28.TabStop = true;
             radioButton28.Text = "radioButton28";
             radioButton28.UseVisualStyleBackColor = true;
-            radioButton28.CheckedChanged += radioButton28_CheckedChanged;
             // 
             // Respuesta6
             // 
@@ -427,7 +427,7 @@
             label4.AutoSize = true;
             label4.Location = new Point(29, 46);
             label4.Name = "label4";
-            label4.Size = new Size(195, 15);
+            label4.Size = new Size(194, 15);
             label4.TabIndex = 0;
             label4.Text = "¿Cuál es un ejemplo de RTS clásico?";
             // 
@@ -482,7 +482,7 @@
             label5.AutoSize = true;
             label5.Location = new Point(29, 46);
             label5.Name = "label5";
-            label5.Size = new Size(320, 15);
+            label5.Size = new Size(321, 15);
             label5.TabIndex = 0;
             label5.Text = "¿En qué juego de Rockstar puedes explorar el Salvaje Oeste?";
             // 
@@ -655,8 +655,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1464, 844);
-            Controls.Add(button1);
+            ClientSize = new Size(1266, 844);
+            Controls.Add(BtnEnviar);
             Controls.Add(groupBox6);
             Controls.Add(groupBox7);
             Controls.Add(groupBox8);
@@ -668,7 +668,8 @@
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "Test2";
-            Text = "Test2";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Test2: Géneros de videojuegos";
             groupBox6.ResumeLayout(false);
             groupBox6.PerformLayout();
             groupBox7.ResumeLayout(false);
@@ -694,7 +695,7 @@
 
         #endregion
 
-        private Button button1;
+        private Button BtnEnviar;
         private GroupBox groupBox6;
         private RadioButton Respuesta10;
         private RadioButton radioButton17;

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            BtnEnviar = new Button();
             groupBox6 = new GroupBox();
             radioButton16 = new RadioButton();
             radioButton17 = new RadioButton();
@@ -91,14 +91,15 @@
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // BtnEnviar
             // 
-            button1.Location = new Point(1287, 751);
-            button1.Name = "button1";
-            button1.Size = new Size(109, 53);
-            button1.TabIndex = 35;
-            button1.Text = "Enviar Test";
-            button1.UseVisualStyleBackColor = true;
+            BtnEnviar.Location = new Point(1287, 751);
+            BtnEnviar.Name = "BtnEnviar";
+            BtnEnviar.Size = new Size(109, 53);
+            BtnEnviar.TabIndex = 35;
+            BtnEnviar.Text = "Enviar Test";
+            BtnEnviar.UseVisualStyleBackColor = true;
+            BtnEnviar.Click += BtnEnviar_Click;
             // 
             // groupBox6
             // 
@@ -655,7 +656,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1475, 833);
-            Controls.Add(button1);
+            Controls.Add(BtnEnviar);
             Controls.Add(groupBox6);
             Controls.Add(groupBox7);
             Controls.Add(groupBox8);
@@ -693,7 +694,7 @@
 
         #endregion
 
-        private Button button1;
+        private Button BtnEnviar;
         private GroupBox groupBox6;
         private RadioButton radioButton16;
         private RadioButton radioButton17;

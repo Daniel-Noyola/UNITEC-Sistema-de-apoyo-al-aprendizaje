@@ -1,4 +1,5 @@
 ﻿using Sistema_de_apoyo_al_aprendizaje.Classes;
+using Sistema_de_apoyo_al_aprendizaje.Tests;
 
 namespace Sistema_de_apoyo_al_aprendizaje.Temas.Tema2
 {
@@ -17,6 +18,11 @@ namespace Sistema_de_apoyo_al_aprendizaje.Temas.Tema2
         private void BtnAnterior_Click(object sender, EventArgs e)
         {
             Router.OpenForm<Tema2_2>(this);
+        }
+
+        private void BtnTest_Click(object sender, EventArgs e)
+        {
+            Router.OpenForm<Test2>(this);
         }
     }
 }

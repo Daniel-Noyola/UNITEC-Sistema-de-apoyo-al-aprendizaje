@@ -95,6 +95,7 @@
             BtnTest.TabIndex = 18;
             BtnTest.Text = "Ir al test";
             BtnTest.UseVisualStyleBackColor = true;
+            BtnTest.Click += BtnTest_Click;
             // 
             // Tema2_3
             // 
