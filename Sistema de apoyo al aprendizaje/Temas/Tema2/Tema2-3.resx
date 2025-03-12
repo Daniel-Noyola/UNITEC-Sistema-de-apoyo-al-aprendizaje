@@ -120,10 +120,4 @@
   <data name="label6.Text" xml:space="preserve">
     <value>Los juegos de estrategia han evolucionado desde los clásicos como Age of Empires y StarCraft hasta títulos modernos como Civilization y XCOM. Por otro lado, la simulación incluye juegos como The Sims y Flight Simulator, donde los jugadores pueden recrear experiencias de la vida real.</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Los RPG (juegos de rol) permiten a los jugadores asumir personajes y desarrollar sus habilidades. Ejemplos clave incluyen Final Fantasy, The Elder Scrolls y The Witcher. La aventura, por otro lado, se centra en la exploración y narrativa, con títulos icónicos como The Legend of Zelda y Dark Souls.</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Los juegos de disparos y acción han sido populares desde Doom (1993), considerado el primer FPS. Luego, sagas como Counter-Strike, Call of Duty y Battlefield llevaron el género al multijugador competitivo. En el mundo de acción, juegos como GTA, God of War y Uncharted combinan historia con combates dinámicos.</value>
-  </data>
 </root>
