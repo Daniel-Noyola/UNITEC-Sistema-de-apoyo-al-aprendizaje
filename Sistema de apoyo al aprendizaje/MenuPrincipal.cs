@@ -8,14 +8,9 @@ namespace Sistema_de_apoyo_al_aprendizaje
         public MenuPrincipal()
         {
             InitializeComponent();
-            Examen.Examenes.AddRange([
-                new Examen(1),
-                new Examen(2),
-                new Examen(3)
-                ]);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnTema1_Click(object sender, EventArgs e)
         {
             Router.OpenForm<Tema_1>(this);
         }
@@ -52,7 +47,7 @@ namespace Sistema_de_apoyo_al_aprendizaje
                     : "Lo sentimos, has reprobado";
                 
 
-                MessageBox.Show($"Examenes Completados{Environment.NewLine}Tu calificación es {promedio.ToString("F2")} {Environment.NewLine}{mensaje}", "Calificación");
+                MessageBox.Show($"Tu calificación es {promedio.ToString("F2")} {Environment.NewLine}{mensaje}", "Calificación");
             } else
             {
                 MessageBox.Show("Aun no completas todos los test", "Info");

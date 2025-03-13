@@ -2,7 +2,11 @@
 {
     internal class Examen(int id)
     {
-        public static List<Examen> Examenes = [];
+        public static List<Examen> Examenes = [
+            new Examen(1),
+            new Examen(2),
+            new Examen(3),
+            ];
 
         public int Id { get; } = id;
         public decimal Calificacion { get; set; }
@@ -10,7 +14,7 @@
 
         public static void CalificarExamen(int examenId, List<bool> respuestas)
         {
-            Examen? examen = Examen.Examenes.Find(examen => examen.Id == examenId);
+            Examen? examen = Examenes.Find(examen => examen.Id == examenId);
             int calificacion = 0;
 
             foreach (bool respuesta in respuestas)
@@ -40,7 +44,7 @@
                 resultado += Examen.Calificacion;
             });
 
-            return resultado / 3;
+            return resultado / Examenes.Count;
         }
     }
 }
