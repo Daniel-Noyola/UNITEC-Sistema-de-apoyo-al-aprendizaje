@@ -42,7 +42,7 @@
             // 
             label6.Location = new Point(12, 85);
             label6.Name = "label6";
-            label6.Size = new Size(636, 77);
+            label6.Size = new Size(636, 98);
             label6.TabIndex = 7;
             label6.Text = resources.GetString("label6.Text");
             // 
@@ -59,7 +59,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(253, 186);
+            button1.Location = new Point(252, 203);
             button1.Name = "button1";
             button1.Size = new Size(134, 61);
             button1.TabIndex = 16;
@@ -70,7 +70,7 @@
             // BtnAnterior
             // 
             BtnAnterior.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnAnterior.Location = new Point(50, 186);
+            BtnAnterior.Location = new Point(49, 203);
             BtnAnterior.Name = "BtnAnterior";
             BtnAnterior.Size = new Size(134, 61);
             BtnAnterior.TabIndex = 15;
@@ -81,7 +81,7 @@
             // BtnTest
             // 
             BtnTest.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnTest.Location = new Point(457, 186);
+            BtnTest.Location = new Point(456, 203);
             BtnTest.Name = "BtnTest";
             BtnTest.Size = new Size(134, 61);
             BtnTest.TabIndex = 14;

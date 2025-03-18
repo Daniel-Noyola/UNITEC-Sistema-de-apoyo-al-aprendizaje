@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label6.Text" xml:space="preserve">
-    <value>Los juegos de estrategia han evolucionado desde los clásicos como Age of Empires y StarCraft hasta títulos modernos como Civilization y XCOM. Por otro lado, la simulación incluye juegos como The Sims y Flight Simulator, donde los jugadores pueden recrear experiencias de la vida real.</value>
+    <value>Los juegos de estrategia (RTS) han evolucionado desde los clásicos como Age of Empires y StarCraft hasta títulos modernos como Civilization, el cual introdujo la mecánica por turnos y XCOM. Por otro lado, la simulación incluye juegos como The Sims y Flight Simulator, donde los jugadores pueden recrear experiencias de la vida real.</value>
   </data>
 </root>

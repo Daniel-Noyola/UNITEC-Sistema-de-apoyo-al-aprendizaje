@@ -12,7 +12,7 @@
         public decimal Calificacion { get; set; }
         public bool EstaEvaluado { get; set; } = false;
 
-        public static void CalificarExamen(int examenId, List<bool> respuestas)
+        public static void CalificarExamen(int examenId, bool[] respuestas)
         {
             Examen? examen = Examenes.Find(examen => examen.Id == examenId);
             int calificacion = 0;

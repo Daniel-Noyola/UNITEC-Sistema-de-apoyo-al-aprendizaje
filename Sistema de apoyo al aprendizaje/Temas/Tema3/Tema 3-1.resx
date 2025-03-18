@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label4.Text" xml:space="preserve">
-    <value>La IA en videojuegos permite crear NPCs más realistas, como en Red Dead Redemption 2. Además, la Realidad Virtual y Aumentada (VR/AR) está revolucionando la industria con juegos como Half-Life: Alyx. El gaming en la nube con plataformas como Xbox Cloud Gaming también está cambiando la forma en que jugamos.</value>
+    <value>La IA en videojuegos permite crear NPCs (Personajes no jugables) más realistas, como en Red Dead Redemption 2. Además, la Realidad Virtual y Aumentada (VR/AR) está revolucionando la industria con juegos como Half-Life: Alyx. El gaming en la nube con plataformas como Xbox Cloud Gaming también está cambiando la forma en que jugamos.</value>
   </data>
 </root>

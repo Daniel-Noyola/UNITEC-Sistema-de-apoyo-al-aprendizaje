@@ -42,7 +42,7 @@
             // 
             label5.Location = new Point(12, 70);
             label5.Name = "label5";
-            label5.Size = new Size(592, 160);
+            label5.Size = new Size(592, 213);
             label5.TabIndex = 6;
             label5.Text = resources.GetString("label5.Text");
             // 
@@ -67,7 +67,7 @@
             // BtnAnterior
             // 
             BtnAnterior.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnAnterior.Location = new Point(36, 262);
+            BtnAnterior.Location = new Point(37, 306);
             BtnAnterior.Name = "BtnAnterior";
             BtnAnterior.Size = new Size(134, 61);
             BtnAnterior.TabIndex = 12;
@@ -78,7 +78,7 @@
             // BtnSiguiente
             // 
             BtnSiguiente.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnSiguiente.Location = new Point(443, 262);
+            BtnSiguiente.Location = new Point(444, 306);
             BtnSiguiente.Name = "BtnSiguiente";
             BtnSiguiente.Size = new Size(134, 61);
             BtnSiguiente.TabIndex = 11;
@@ -89,7 +89,7 @@
             // BtnMenu
             // 
             BtnMenu.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnMenu.Location = new Point(239, 262);
+            BtnMenu.Location = new Point(240, 306);
             BtnMenu.Name = "BtnMenu";
             BtnMenu.Size = new Size(134, 61);
             BtnMenu.TabIndex = 13;
@@ -101,7 +101,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(846, 363);
+            ClientSize = new Size(846, 420);
             Controls.Add(BtnMenu);
             Controls.Add(BtnAnterior);
             Controls.Add(BtnSiguiente);

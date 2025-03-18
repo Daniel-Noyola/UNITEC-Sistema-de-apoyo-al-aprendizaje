@@ -12,7 +12,7 @@ namespace Sistema_de_apoyo_al_aprendizaje.Tests
 
         private void BtnEnviar_Click(object sender, EventArgs e)
         {
-            List<bool> respuestas = [
+            bool[] respuestas = [
                 Respuesta1.Checked,
                 Respuesta2.Checked,
                 Respuesta3.Checked,
@@ -72,11 +72,6 @@ namespace Sistema_de_apoyo_al_aprendizaje.Tests
             }
 
             Boxes[id].Enabled = true;
-        }
-
-        private void Respuesta8_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -129,12 +129,12 @@
             // radioButton16
             // 
             radioButton16.AutoSize = true;
-            radioButton16.Location = new Point(475, 91);
+            radioButton16.Location = new Point(457, 91);
             radioButton16.Name = "radioButton16";
-            radioButton16.Size = new Size(100, 19);
+            radioButton16.Size = new Size(47, 19);
             radioButton16.TabIndex = 3;
             radioButton16.TabStop = true;
-            radioButton16.Text = "radioButton16";
+            radioButton16.Text = "Kick";
             radioButton16.UseVisualStyleBackColor = true;
             // 
             // radioButton17
@@ -142,10 +142,10 @@
             radioButton17.AutoSize = true;
             radioButton17.Location = new Point(233, 91);
             radioButton17.Name = "radioButton17";
-            radioButton17.Size = new Size(100, 19);
+            radioButton17.Size = new Size(114, 19);
             radioButton17.TabIndex = 2;
             radioButton17.TabStop = true;
-            radioButton17.Text = "radioButton17";
+            radioButton17.Text = "Youtube Gaming";
             radioButton17.UseVisualStyleBackColor = true;
             // 
             // Respuesta10
@@ -153,7 +153,7 @@
             Respuesta10.AutoSize = true;
             Respuesta10.Location = new Point(29, 91);
             Respuesta10.Name = "Respuesta10";
-            Respuesta10.Size = new Size(60, 19);
+            Respuesta10.Size = new Size(59, 19);
             Respuesta10.TabIndex = 1;
             Respuesta10.TabStop = true;
             Respuesta10.Text = "Twitch";
@@ -194,12 +194,12 @@
             // Respuesta9
             // 
             Respuesta9.AutoSize = true;
-            Respuesta9.Location = new Point(475, 91);
+            Respuesta9.Location = new Point(417, 91);
             Respuesta9.Name = "Respuesta9";
-            Respuesta9.Size = new Size(393, 19);
+            Respuesta9.Size = new Size(115, 19);
             Respuesta9.TabIndex = 3;
             Respuesta9.TabStop = true;
-            Respuesta9.Text = "Inteligencia Artificial, usada para NPCs y comportamientos dinámicos";
+            Respuesta9.Text = "Usada para NPCs";
             Respuesta9.UseVisualStyleBackColor = true;
             // 
             // radioButton20
@@ -207,10 +207,10 @@
             radioButton20.AutoSize = true;
             radioButton20.Location = new Point(233, 91);
             radioButton20.Name = "radioButton20";
-            radioButton20.Size = new Size(100, 19);
+            radioButton20.Size = new Size(137, 19);
             radioButton20.TabIndex = 2;
             radioButton20.TabStop = true;
-            radioButton20.Text = "radioButton20";
+            radioButton20.Text = "Responder preguntas";
             radioButton20.UseVisualStyleBackColor = true;
             // 
             // radioButton21
@@ -218,10 +218,10 @@
             radioButton21.AutoSize = true;
             radioButton21.Location = new Point(29, 91);
             radioButton21.Name = "radioButton21";
-            radioButton21.Size = new Size(100, 19);
+            radioButton21.Size = new Size(103, 19);
             radioButton21.TabIndex = 1;
             radioButton21.TabStop = true;
-            radioButton21.Text = "radioButton21";
+            radioButton21.Text = "Diseñar niveles";
             radioButton21.UseVisualStyleBackColor = true;
             // 
             // label7
@@ -229,9 +229,9 @@
             label7.AutoSize = true;
             label7.Location = new Point(29, 46);
             label7.Name = "label7";
-            label7.Size = new Size(193, 15);
+            label7.Size = new Size(261, 15);
             label7.TabIndex = 0;
-            label7.Text = "¿Qué significa \"IA\" en videojuegos?";
+            label7.Text = "¿Cuál es el principal uso de \"IA\" en videojuegos?";
             // 
             // Guardar9
             // 
@@ -259,35 +259,34 @@
             // radioButton22
             // 
             radioButton22.AutoSize = true;
-            radioButton22.Location = new Point(475, 91);
+            radioButton22.Location = new Point(446, 91);
             radioButton22.Name = "radioButton22";
-            radioButton22.Size = new Size(100, 19);
+            radioButton22.Size = new Size(86, 19);
             radioButton22.TabIndex = 3;
             radioButton22.TabStop = true;
-            radioButton22.Text = "radioButton22";
+            radioButton22.Text = "No importa";
             radioButton22.UseVisualStyleBackColor = true;
             // 
             // Respuesta8
             // 
             Respuesta8.AutoSize = true;
-            Respuesta8.Location = new Point(135, 91);
+            Respuesta8.Location = new Point(186, 91);
             Respuesta8.Name = "Respuesta8";
-            Respuesta8.Size = new Size(339, 19);
+            Respuesta8.Size = new Size(216, 19);
             Respuesta8.TabIndex = 2;
             Respuesta8.TabStop = true;
-            Respuesta8.Text = "Guía al jugador, mejora la inmersión y equilibra la dificultad";
+            Respuesta8.Text = "Guía al jugador, mejora la inmersión";
             Respuesta8.UseVisualStyleBackColor = true;
-            Respuesta8.CheckedChanged += Respuesta8_CheckedChanged;
             // 
             // radioButton24
             // 
             radioButton24.AutoSize = true;
-            radioButton24.Location = new Point(18, 91);
+            radioButton24.Location = new Point(34, 91);
             radioButton24.Name = "radioButton24";
-            radioButton24.Size = new Size(100, 19);
+            radioButton24.Size = new Size(90, 19);
             radioButton24.TabIndex = 1;
             radioButton24.TabStop = true;
-            radioButton24.Text = "radioButton24";
+            radioButton24.Text = "Se ve bonito";
             radioButton24.UseVisualStyleBackColor = true;
             // 
             // label8
@@ -325,12 +324,12 @@
             // radioButton25
             // 
             radioButton25.AutoSize = true;
-            radioButton25.Location = new Point(475, 91);
+            radioButton25.Location = new Point(457, 91);
             radioButton25.Name = "radioButton25";
-            radioButton25.Size = new Size(100, 19);
+            radioButton25.Size = new Size(67, 19);
             radioButton25.TabIndex = 3;
             radioButton25.TabStop = true;
-            radioButton25.Text = "radioButton25";
+            radioButton25.Text = "Ableton";
             radioButton25.UseVisualStyleBackColor = true;
             // 
             // radioButton26
@@ -338,10 +337,10 @@
             radioButton26.AutoSize = true;
             radioButton26.Location = new Point(233, 91);
             radioButton26.Name = "radioButton26";
-            radioButton26.Size = new Size(100, 19);
+            radioButton26.Size = new Size(61, 19);
             radioButton26.TabIndex = 2;
             radioButton26.TabStop = true;
-            radioButton26.Text = "radioButton26";
+            radioButton26.Text = "Reaper";
             radioButton26.UseVisualStyleBackColor = true;
             // 
             // Respuesta7
@@ -390,12 +389,12 @@
             // Respuesta6
             // 
             Respuesta6.AutoSize = true;
-            Respuesta6.Location = new Point(448, 92);
+            Respuesta6.Location = new Point(432, 91);
             Respuesta6.Name = "Respuesta6";
-            Respuesta6.Size = new Size(346, 19);
+            Respuesta6.Size = new Size(100, 19);
             Respuesta6.TabIndex = 3;
             Respuesta6.TabStop = true;
-            Respuesta6.Text = "Juegos de simulación, terror y exploración (ej. Half-Life: Alyx)";
+            Respuesta6.Text = "Distintos tipos";
             Respuesta6.UseVisualStyleBackColor = true;
             // 
             // radioButton29
@@ -403,10 +402,10 @@
             radioButton29.AutoSize = true;
             radioButton29.Location = new Point(233, 91);
             radioButton29.Name = "radioButton29";
-            radioButton29.Size = new Size(100, 19);
+            radioButton29.Size = new Size(146, 19);
             radioButton29.TabIndex = 2;
             radioButton29.TabStop = true;
-            radioButton29.Text = "radioButton29";
+            radioButton29.Text = "Solo juegos de carreras";
             radioButton29.UseVisualStyleBackColor = true;
             // 
             // radioButton30
@@ -414,10 +413,10 @@
             radioButton30.AutoSize = true;
             radioButton30.Location = new Point(29, 91);
             radioButton30.Name = "radioButton30";
-            radioButton30.Size = new Size(100, 19);
+            radioButton30.Size = new Size(150, 19);
             radioButton30.TabIndex = 1;
             radioButton30.TabStop = true;
-            radioButton30.Text = "radioButton30";
+            radioButton30.Text = "Solo juegos de Disparos";
             radioButton30.UseVisualStyleBackColor = true;
             // 
             // label10
@@ -455,12 +454,12 @@
             // radioButton10
             // 
             radioButton10.AutoSize = true;
-            radioButton10.Location = new Point(475, 91);
+            radioButton10.Location = new Point(458, 91);
             radioButton10.Name = "radioButton10";
-            radioButton10.Size = new Size(100, 19);
+            radioButton10.Size = new Size(97, 19);
             radioButton10.TabIndex = 3;
             radioButton10.TabStop = true;
-            radioButton10.Text = "radioButton10";
+            radioButton10.Text = "Godot Engine";
             radioButton10.UseVisualStyleBackColor = true;
             // 
             // Respuesta5
@@ -479,10 +478,10 @@
             radioButton12.AutoSize = true;
             radioButton12.Location = new Point(29, 91);
             radioButton12.Name = "radioButton12";
-            radioButton12.Size = new Size(31, 19);
+            radioButton12.Size = new Size(77, 19);
             radioButton12.TabIndex = 1;
             radioButton12.TabStop = true;
-            radioButton12.Text = "  ";
+            radioButton12.Text = "  Frostbite";
             radioButton12.UseVisualStyleBackColor = true;
             // 
             // Guardar5
@@ -661,7 +660,7 @@
             radioButton4.AutoSize = true;
             radioButton4.Location = new Point(475, 91);
             radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(64, 19);
+            radioButton4.Size = new Size(65, 19);
             radioButton4.TabIndex = 3;
             radioButton4.TabStop = true;
             radioButton4.Text = "3D Max";
