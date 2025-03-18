@@ -2,18 +2,17 @@
 {
     internal class Router
     {
+        public static Form? MainForm = Application.OpenForms["MenuPrincipal"];
         public static void OpenForm<T>(
             Form currentForm,
             Form? returnForm = null) where T : Form, new()
         {
             T form = new();
-            Form? mainForm = Application.OpenForms["MenuPrincipal"];
 
-            if (currentForm == mainForm) currentForm.Hide();
-            else currentForm.Close();
+            if (currentForm != MainForm) currentForm.Close();
 
             if (returnForm != null) form.FormClosed += (s, args) => returnForm.Show();
-            else form.FormClosed += (s, args) => mainForm?.Show();
+            else form.FormClosed += (s, args) => MainForm?.Show();
 
             form.Show();
         }
@@ -21,9 +20,7 @@
         public static void GoToMainForm(Form currentForm)
         {
             currentForm.Close();
-            Form? mainForm = Application.OpenForms["MenuPrincipal"];
-            mainForm?.Show();
-
+            MainForm?.Show();
         }
     }
 }

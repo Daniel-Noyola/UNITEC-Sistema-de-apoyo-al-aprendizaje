@@ -11,7 +11,7 @@ namespace Sistema_de_apoyo_al_aprendizaje.Tests
             ControlPreguntas();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnEnviar_Click(object sender, EventArgs e)
         {
             List<bool> respuestas = [
                 Respuesta1.Checked,
@@ -65,14 +65,14 @@ namespace Sistema_de_apoyo_al_aprendizaje.Tests
 
         public void HabilitarPregunta(int id)
         {
-            if (id != 0) Boxes[id-1].Enabled = false;
+            if (id != 0) Boxes[id - 1].Enabled = false;
+            Boxes[id].Enabled = true;
+
             if (id == 10)
             {
                 BtnEnviar.Enabled = true;
-                    return;
+                return;
             }
-
-            Boxes[id].Enabled = true;
         }
     }
 }

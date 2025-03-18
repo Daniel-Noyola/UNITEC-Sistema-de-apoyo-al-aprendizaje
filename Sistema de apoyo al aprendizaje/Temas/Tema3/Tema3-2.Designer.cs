@@ -93,9 +93,9 @@
             label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(29, 79);
             label2.Name = "label2";
-            label2.Size = new Size(168, 30);
+            label2.Size = new Size(313, 30);
             label2.TabIndex = 18;
-            label2.Text = "RPG y Aventura";
+            label2.Text = "Diseño de Personajes y Niveles";
             // 
             // Tema3_2
             // 

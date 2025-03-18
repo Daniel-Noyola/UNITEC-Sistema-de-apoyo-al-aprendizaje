@@ -118,6 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label6.Text" xml:space="preserve">
-    <value>Los juegos de estrategia han evolucionado desde los clásicos como Age of Empires y StarCraft hasta títulos modernos como Civilization y XCOM. Por otro lado, la simulación incluye juegos como The Sims y Flight Simulator, donde los jugadores pueden recrear experiencias de la vida real.</value>
+    <value>El desarrollo de videojuegos depende de herramientas especializadas:
+
+Motores gráficos: Unity es popular en juegos móviles e indie, mientras que Unreal Engine es usado en títulos AAA como Fortnite.
+Software de modelado y animación: Blender y Maya permiten crear personajes y escenarios.
+Creación de audio: Programas como FMOD y Wwise ayudan a generar efectos sonoros y música.</value>
   </data>
 </root>

@@ -73,5 +73,10 @@ namespace Sistema_de_apoyo_al_aprendizaje.Tests
 
             Boxes[id].Enabled = true;
         }
+
+        private void Respuesta8_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

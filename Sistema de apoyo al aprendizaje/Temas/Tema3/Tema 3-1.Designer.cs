@@ -81,9 +81,9 @@
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(33, 76);
             label1.Name = "label1";
-            label1.Size = new Size(181, 30);
+            label1.Size = new Size(427, 30);
             label1.TabIndex = 14;
-            label1.Text = "Shooter y Acción";
+            label1.Text = "Inteligencia Artificial y Futuro del Gaming";
             // 
             // Tema_3
             // 

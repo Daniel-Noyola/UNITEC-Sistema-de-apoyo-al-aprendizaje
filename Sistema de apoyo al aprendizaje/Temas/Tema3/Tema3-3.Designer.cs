@@ -81,9 +81,9 @@
             // 
             // label6
             // 
-            label6.Location = new Point(22, 116);
+            label6.Location = new Point(22, 79);
             label6.Name = "label6";
-            label6.Size = new Size(529, 63);
+            label6.Size = new Size(529, 107);
             label6.TabIndex = 23;
             label6.Text = resources.GetString("label6.Text");
             // 
@@ -91,11 +91,12 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(22, 72);
+            label3.Location = new Point(24, 20);
             label3.Name = "label3";
-            label3.Size = new Size(241, 30);
+            label3.Size = new Size(335, 30);
             label3.TabIndex = 22;
-            label3.Text = "Estrategia y Simulación\n";
+            label3.Text = "Motores Gráficos y Herramientas";
+            label3.Click += label3_Click;
             // 
             // Tema3_3
             // 

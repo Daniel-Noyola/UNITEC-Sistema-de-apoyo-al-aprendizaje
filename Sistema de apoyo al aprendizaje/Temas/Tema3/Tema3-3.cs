@@ -24,5 +24,10 @@ namespace Sistema_de_apoyo_al_aprendizaje.Temas.Tema3
         {
             Router.OpenForm<Test3>(this);
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
