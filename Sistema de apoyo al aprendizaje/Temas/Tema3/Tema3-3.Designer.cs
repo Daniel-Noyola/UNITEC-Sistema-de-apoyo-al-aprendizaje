@@ -40,16 +40,18 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(584, 58);
+            pictureBox1.Image = Properties.Resources.Tema_3_3;
+            pictureBox1.Location = new Point(529, 58);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(230, 223);
+            pictureBox1.Size = new Size(285, 223);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 27;
             pictureBox1.TabStop = false;
             // 
             // button1
             // 
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(225, 208);
+            button1.Location = new Point(187, 229);
             button1.Name = "button1";
             button1.Size = new Size(134, 61);
             button1.TabIndex = 26;
@@ -60,7 +62,7 @@
             // BtnAnterior
             // 
             BtnAnterior.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnAnterior.Location = new Point(32, 208);
+            BtnAnterior.Location = new Point(24, 229);
             BtnAnterior.Name = "BtnAnterior";
             BtnAnterior.Size = new Size(134, 61);
             BtnAnterior.TabIndex = 25;
@@ -71,7 +73,7 @@
             // BtnTest
             // 
             BtnTest.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnTest.Location = new Point(417, 208);
+            BtnTest.Location = new Point(344, 229);
             BtnTest.Name = "BtnTest";
             BtnTest.Size = new Size(134, 61);
             BtnTest.TabIndex = 24;
@@ -83,7 +85,7 @@
             // 
             label6.Location = new Point(22, 79);
             label6.Name = "label6";
-            label6.Size = new Size(529, 107);
+            label6.Size = new Size(482, 107);
             label6.TabIndex = 23;
             label6.Text = resources.GetString("label6.Text");
             // 
@@ -110,7 +112,8 @@
             Controls.Add(label6);
             Controls.Add(label3);
             Name = "Tema3_3";
-            Text = "Tema3_3";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Desarrollo y Diseño de Videojuegos";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

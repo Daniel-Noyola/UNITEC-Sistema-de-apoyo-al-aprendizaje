@@ -51,14 +51,14 @@
             // 
             label4.Location = new Point(26, 82);
             label4.Name = "label4";
-            label4.Size = new Size(588, 120);
+            label4.Size = new Size(565, 120);
             label4.TabIndex = 3;
             label4.Text = resources.GetString("label4.Text");
             // 
             // BtnSiguiente
             // 
             BtnSiguiente.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnSiguiente.Location = new Point(457, 229);
+            BtnSiguiente.Location = new Point(395, 229);
             BtnSiguiente.Name = "BtnSiguiente";
             BtnSiguiente.Size = new Size(134, 61);
             BtnSiguiente.TabIndex = 6;
@@ -79,9 +79,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(634, 67);
+            pictureBox1.Image = Properties.Resources.Tema1_1;
+            pictureBox1.Location = new Point(597, 67);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(230, 223);
+            pictureBox1.Size = new Size(267, 223);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
             // 

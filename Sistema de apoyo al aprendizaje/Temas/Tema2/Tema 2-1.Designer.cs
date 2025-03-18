@@ -41,7 +41,7 @@
             // 
             label4.Location = new Point(29, 91);
             label4.Name = "label4";
-            label4.Size = new Size(527, 98);
+            label4.Size = new Size(496, 98);
             label4.TabIndex = 10;
             label4.Text = resources.GetString("label4.Text");
             // 
@@ -57,9 +57,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(574, 50);
+            pictureBox1.Image = Properties.Resources.Tema_2_1;
+            pictureBox1.Location = new Point(541, 50);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(230, 223);
+            pictureBox1.Size = new Size(275, 223);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 

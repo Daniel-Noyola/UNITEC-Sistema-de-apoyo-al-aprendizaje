@@ -41,7 +41,7 @@
             // BtnMenu
             // 
             BtnMenu.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnMenu.Location = new Point(224, 241);
+            BtnMenu.Location = new Point(176, 241);
             BtnMenu.Name = "BtnMenu";
             BtnMenu.Size = new Size(134, 61);
             BtnMenu.TabIndex = 23;
@@ -63,7 +63,7 @@
             // BtnSiguiente
             // 
             BtnSiguiente.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            BtnSiguiente.Location = new Point(428, 241);
+            BtnSiguiente.Location = new Point(341, 241);
             BtnSiguiente.Name = "BtnSiguiente";
             BtnSiguiente.Size = new Size(134, 61);
             BtnSiguiente.TabIndex = 21;
@@ -73,9 +73,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(597, 79);
+            pictureBox1.Image = Properties.Resources.Tema_3_2;
+            pictureBox1.Location = new Point(526, 79);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(230, 223);
+            pictureBox1.Size = new Size(311, 223);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 20;
             pictureBox1.TabStop = false;
             // 
@@ -83,7 +85,7 @@
             // 
             label5.Location = new Point(29, 124);
             label5.Name = "label5";
-            label5.Size = new Size(545, 95);
+            label5.Size = new Size(501, 95);
             label5.TabIndex = 19;
             label5.Text = resources.GetString("label5.Text");
             // 
@@ -109,7 +111,8 @@
             Controls.Add(label5);
             Controls.Add(label2);
             Name = "Tema3_2";
-            Text = "Tema3_2";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Desarrollo y Diseño de Videojuegos";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

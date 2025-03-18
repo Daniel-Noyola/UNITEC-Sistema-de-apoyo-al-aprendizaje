@@ -39,9 +39,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(578, 76);
+            pictureBox1.Image = Properties.Resources.Tema_3_1;
+            pictureBox1.Location = new Point(566, 76);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(230, 223);
+            pictureBox1.Size = new Size(250, 223);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 18;
             pictureBox1.TabStop = false;
             // 
@@ -97,7 +99,7 @@
             Controls.Add(label1);
             Name = "Tema_3";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Tema_3";
+            Text = "Desarrollo y Diseño de Videojuegos";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

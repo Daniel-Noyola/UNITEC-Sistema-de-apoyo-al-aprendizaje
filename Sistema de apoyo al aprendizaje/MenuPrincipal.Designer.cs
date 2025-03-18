@@ -42,7 +42,7 @@
             // 
             // BtnTema1
             // 
-            BtnTema1.Location = new Point(61, 296);
+            BtnTema1.Location = new Point(70, 269);
             BtnTema1.Name = "BtnTema1";
             BtnTema1.Size = new Size(153, 54);
             BtnTema1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // BtnTema2
             // 
-            BtnTema2.Location = new Point(326, 296);
+            BtnTema2.Location = new Point(335, 269);
             BtnTema2.Name = "BtnTema2";
             BtnTema2.Size = new Size(135, 54);
             BtnTema2.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             // BtnTema3
             // 
-            BtnTema3.Location = new Point(565, 296);
+            BtnTema3.Location = new Point(574, 269);
             BtnTema3.Name = "BtnTema3";
             BtnTema3.Size = new Size(141, 54);
             BtnTema3.TabIndex = 2;
@@ -72,31 +72,37 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(51, 97);
+            pictureBox1.Image = Properties.Resources.Tema_1;
+            pictureBox1.Location = new Point(35, 71);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(177, 171);
+            pictureBox1.Size = new Size(214, 171);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(308, 97);
+            pictureBox2.Image = Properties.Resources.Tema_2;
+            pictureBox2.Location = new Point(286, 71);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(177, 171);
+            pictureBox2.Size = new Size(214, 171);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            pictureBox3.Location = new Point(549, 97);
+            pictureBox3.Image = Properties.Resources.Tema_3;
+            pictureBox3.Location = new Point(533, 71);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(177, 171);
+            pictureBox3.Size = new Size(214, 171);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 5;
             pictureBox3.TabStop = false;
             // 
             // BtnCalificacionFinal
             // 
-            BtnCalificacionFinal.Location = new Point(326, 381);
+            BtnCalificacionFinal.Location = new Point(335, 354);
             BtnCalificacionFinal.Name = "BtnCalificacionFinal";
             BtnCalificacionFinal.Size = new Size(135, 57);
             BtnCalificacionFinal.TabIndex = 6;
